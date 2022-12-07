@@ -1,0 +1,8 @@
+body > div:not(#belowtopnav),
+#leftmenuinner,
+#right,#footer {
+  display: none;
+}
+#sidenav{
+  background-color: inherit;
+}

@@ -1,0 +1,11 @@
+body>#root>:not(div),
+.page-wrapper>:not(:last-child),
+.page-wrapper>:last-child>:not(main){
+  
+  display:none;
+}
+
+.page-wrapper>:last-child{
+  margin-top: min(3vmax, 5rem);
+  margin-bottom: min(10vmax, 10rem);
+}

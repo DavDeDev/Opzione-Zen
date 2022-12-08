@@ -6,3 +6,7 @@ body > div:not(#belowtopnav),
 #sidenav{
   background-color: inherit;
 }
+#belowtopnav{
+  margin-top:100px;
+  padding-top: 100px;
+}

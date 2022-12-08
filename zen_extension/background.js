@@ -6,7 +6,7 @@ chrome.runtime.onInstalled.addListener(() => {
 // Associate a domain to each website
 const sites = {
   google: "https://developer.chrome.com/docs/",
-  mdn: "https://developer.mozilla.org/en-US/docs/Web",
+  mdn: "https://developer.mozilla.org/en-US/docs/",
   w3: "https://www.w3schools.com/",
   sof: "https://stackoverflow.com/questions/",  
   harvard:"https://cs50.harvard.edu/x/2022/"

@@ -7,6 +7,7 @@ const sites = {
   google: "https://developer.chrome.com/docs/",
   mdn: "https://developer.mozilla.org/en-US/docs/Web",
   w3: "https://www.w3schools.com/",
+  sof: "https://stackoverflow.com/questions/",  
 };
 chrome.action.onClicked.addListener(async (tab) => {
   for (const site in sites) {

@@ -1,0 +1,11 @@
+body > footer,
+body > header,
+div#sidebar,
+form#post-form,
+#question-header>div {
+  display: none;
+}
+div.s-topbar--container,body>header {
+  display: none;
+  
+}

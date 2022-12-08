@@ -2,10 +2,17 @@ body > footer,
 body > header,
 div#sidebar,
 form#post-form,
-#question-header>div {
+h2.bottom-notice,
+#question-header>div,
+#custom-header+header {
   display: none;
 }
-div.s-topbar--container,body>header {
+/* div.s-topbar--container,body>header {
   display: none;
-  
+} */
+
+#main-bar {
+  margin-top: min(10vmax, 10rem);
+  margin-bottom: min(10vmax, 10rem);
+  margin-left: 10rem;
 }

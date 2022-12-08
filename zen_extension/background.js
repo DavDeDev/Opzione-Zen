@@ -3,22 +3,25 @@ chrome.runtime.onInstalled.addListener(() => {
     text: "OFF",
   });
 });
+// Associate a domain to each website
 const sites = {
   google: "https://developer.chrome.com/docs/",
   mdn: "https://developer.mozilla.org/en-US/docs/Web",
   w3: "https://www.w3schools.com/",
   sof: "https://stackoverflow.com/questions/",  
 };
+
+// Listen for clicks on the extension's action badge
 chrome.action.onClicked.addListener(async (tab) => {
-  for (const site in sites) {
+  for (const site in sites) { //Iterate through the dictionary
     if (tab.url.startsWith(sites[site])) {
       var domain = site;
-      break;
+      break; // And stop when the domain is found
     }
     
   }
   if (domain === undefined) {
-    return;
+    return; //In case no domain was found terminate
   }
 
   // Retrieve the action badge to check if the extension is 'ON' or 'OFF'

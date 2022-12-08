@@ -17,6 +17,8 @@ My project, as every extension, include a `manifest.json` file which is mandator
 
 Based on the domain, a different css file is applied to the page and this is why the choice for naming the files were helpful, and for each stylesheet I change components by inspecting the different websites and finding common components that could be obscured.
 
+In future, I will extend the set of website where this extension can be applied to and I look forward to develop my other idea as soon as Google release an API to work with reading list.
+
 I want to thank professor Malan, Doug Lloyd, Rongxin Liu and all the staff for this wonderful course!
 ```diff
 - This was CS50!!

@@ -9,6 +9,7 @@ const sites = {
   mdn: "https://developer.mozilla.org/en-US/docs/Web",
   w3: "https://www.w3schools.com/",
   sof: "https://stackoverflow.com/questions/",  
+  harvard:"https://cs50.harvard.edu/x/2022/"
 };
 
 // Listen for clicks on the extension's action badge

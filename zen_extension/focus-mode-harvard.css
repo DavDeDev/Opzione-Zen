@@ -1,0 +1,10 @@
+body>div>div>aside{
+  display: none;
+}
+.row,
+main{
+  background-color: #1b1b1b;
+  margin-bottom: 0;
+  margin: 5rem;
+  color: white;
+}

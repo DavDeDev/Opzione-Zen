@@ -1,7 +1,7 @@
 ![This is an image](zen_extension/images/flower_128.png)
 # Opzione Zen
 ---
-### Video Demo:  <URL HERE>
+### Video Demo:  https://youtu.be/f_eCVh4mz8U
 #### Description:
 The idea of creating a Chrome Extension was born after a need that I had of creating an extension that could handle my reading list and randomly pick a random article to be displayed once the user opens the browser. However, it didn't take much time before discovering that [there's no API to access the Reading List of the user](https://bugs.chromium.org/p/chromium/issues/detail?id=1265326), therefore I decided to focus on another project that could help me.
 
